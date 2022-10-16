@@ -530,10 +530,10 @@ img {
   max-width: 206px;
   margin-left: 70px;
 }
-.join-us h2 {
+.join-us p {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16px / 14px);
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -594,7 +594,7 @@ img {
 }
 .close-btn {
   position: absolute;
-  display: inline block;
+  display: inline-block;
   top: 8px;
   right: 8px;
   width: 30px;
@@ -604,6 +604,10 @@ img {
   border-radius: 50%;
   background-color: var(--nav-background-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  color: var(--logo-color);
+}
+.close-btn-icon {
+  fill: currentColor;
 }
 
 /* portfolio styles */
